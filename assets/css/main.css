@@ -1,0 +1,47 @@
+body{
+	/* Pour Faire descendre le pied de page en bas de page */
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /* FIN pour descendre pied de page*/ 
+   /* background-color: #f5f5f5;*/
+}
+
+main{
+	/* Pour Faire descendre le pied de page en bas de page */
+    flex: 1 0 auto;
+    /* FIN pour descendre pied de page*/
+}
+
+    /* CSS Pour Page Index */
+main#main-backColor{
+    background-color: #f5f5f5;
+}
+
+span.card-title{
+    /*text-align: center;*/
+}
+
+    /* CSS pour Page Login */
+main #margintop-formlogin{
+    /*margin-top: 15px;*/
+}
+
+main #margintop-formlogin > h3{
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+}
+#margintop-formlogin #row2 {
+    /*padding-bottom: 20px;*/
+}
+
+    /* CSS POUR PAGE Single-Communique */
+main #col1{
+
+}
+
+/* Footer  */
+footer p{
+    text-align: justify;
+    font-size: 0.9em;
+ }
